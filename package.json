@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server/index.js",
     "build-watch": "webpack --config webpack.config.js --watch"
   },
   "repository": {
